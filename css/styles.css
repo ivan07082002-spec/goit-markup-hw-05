@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+body:has(.backdrop.is-open) {
+  overflow-y: hidden;
+}
+
 section {
   padding: 120px 0;
 }
@@ -600,17 +604,28 @@ img {
   right: 24px;
 
   color: #2e2f42;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover,
 .modal-button:focus {
-  color: #fff;
+  fill: #ffffff;
 }
 
 .modal-button-icon {
   stroke: currentColor;
 }
 .modal-slogan {
+  width: 351px;
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .backdrop:not(.is-open) .modal {

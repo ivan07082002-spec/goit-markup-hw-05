@@ -573,6 +573,8 @@ img {
 }
 
 .footer-form-filed {
+  width: 264px;
+  height: 40px;
   border: 1px solid #fff;
   border-radius: 4px;
 
@@ -591,7 +593,7 @@ img {
 }
 
 .footer-form-filed:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-form-filed::placeholder {
@@ -626,10 +628,7 @@ img {
 
 .footer-button:hover,
 .footer-button:focus {
-  background-color: #404bbf;
-}
-
-.footer-icon {
+  background-color: #31d0aa;
 }
 
 /* #endregion footer-form */
@@ -709,8 +708,7 @@ img {
 }
 
 /* #region modal-forn */
-.feedback-form {
-}
+
 .feedback-wrapper {
   margin-bottom: 8px;
 }

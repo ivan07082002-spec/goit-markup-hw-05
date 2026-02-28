@@ -710,7 +710,7 @@ img {
 /* #region modal-forn */
 
 .feedback-wrapper {
-  margin-top: 8px;
+  padding-top: 8px;
 }
 .feedback-label {
   display: block;

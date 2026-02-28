@@ -491,17 +491,38 @@
               </li>
             </ul>
           </div>
+          <div class="footer-form-wrapper">
+            <form class="footer-form" name="Subscribe-form">
+              <div>
+                <label class="footer-form-label">Subscribe</label>
+                <div class="footer-input-wrapper">
+                  <input
+                    class="footer-form-filed"
+                    type="email"
+                    name="user-email"
+                    placeholder="E-mail"
+                  />
+                  <button class="footer-button" type="submit">
+                    Subscribe
+                    <svg class="footer-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-frame"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button
           class="modal-button"
           type="button"
           aria-label="Close modal button"
         >
-          <svg class="modal-button-icon" width="8" height="8">
+          <svg class="modal-button-icon" width="10" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -548,17 +569,18 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <label class="">
+          <label class="feedbeck-agreement">
             <input
+              class="feedbeck-checkbox visually-hidden"
               type="checkbox"
-              name="user-agreement"
-              id="user-agreement"
+              name="user-Agreement"
+              id="user-Agreement"
               value="true"
               checked
             />
             <span class="feedback-toggler">
               <svg class="feedback-toggler-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-Vector"></use>
+                <use href="./images/icons.svg#icon-vector"></use>
               </svg>
             </span>
             I accept the terms and conditions of the

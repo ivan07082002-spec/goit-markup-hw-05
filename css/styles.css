@@ -686,13 +686,19 @@ img {
 .feedback-form-button {
   border-radius: 4px;
   padding: 16px 32px;
-  width: 264px;
+  width: 164px;
   height: 56px;
 
   margin-inline: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
 
   color: #fff;
   background: #4d5ae5;
